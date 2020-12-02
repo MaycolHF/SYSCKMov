@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SYSCKM.MainPage"
+             Title="Cotton Knit">
+
+            <Grid Margin="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="btnColaborador" Text="Colaborador" Grid.Row="0" Grid.Column="0" BackgroundColor="#246C6F" TextColor="White" Padding="2" Margin="3,3,0,0" Clicked="btnColaborador_Clicked"/>
+        <Button x:Name="btnUserApi" Text="Users Api" Grid.Row="0" Grid.Column="1" BackgroundColor="#295072" TextColor="White" Padding="2" Margin="0,3,3,0" Clicked="btnUserApi_Clicked"/>
+        <Button x:Name="btnLecturaSti" Text="Lector de Stikers" Grid.Row="1" Grid.Column="0" BackgroundColor="#295092" TextColor="White" Padding="2" Margin="3,0,0,0" Clicked="btnLecturaSti_Clicked"/>
+            </Grid>
+
+</ContentPage>

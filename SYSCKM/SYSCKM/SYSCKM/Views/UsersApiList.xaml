@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SYSCKM.Views.UsersApiList"
+             Title="Usuarios Web Api">
+    <!--<ContentPage.ToolbarItems>
+        <ToolbarItem Text="+" Clicked="OnAddItemClicked">
+            <ToolbarItem.IconImageSource>
+                <OnPlatform x:TypeArguments="ImageSource">
+                    <On Platform="Android, UWP" Value="plus.png" />
+                </OnPlatform>
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>-->
+    <Grid Margin="2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="36"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button x:Name="btnAgregar" Text="Agregar" Grid.Row="0" Margin="2" BackgroundColor="#3D9649" TextColor="White" Padding="2" Clicked="btnAgregar_Clicked"/>
+        <ListView x:Name="listView" 
+              Margin="20" Grid.Row="1"
+                  ItemSelected="listView_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="10,0,0,0" 
+                                 Margin="1"
+                                 HorizontalOptions="StartAndExpand"
+                                 Orientation="Horizontal">
+                            <Label Text="{Binding Id}" 
+                               VerticalTextAlignment="Center" />
+                            <Label Text="{Binding Nombre}" 
+                               VerticalTextAlignment="Center" />
+                            <Label Text="{Binding Apellido_1}" 
+                               VerticalTextAlignment="Center" />
+                            <Label Text="{Binding Apellido_2}" 
+                               VerticalTextAlignment="Center" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</ContentPage>

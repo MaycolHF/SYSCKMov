@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SYSCKM.Views.LecturaStikers"
+             Title="Lectura de Stikers">
+    <ScrollView Margin="10">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="110"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="Fecha" Grid.Column="0" Grid.Row="0" VerticalTextAlignment="Center"/>
+                <Entry x:Name="txtFecha" Text="{Binding Path=fecha}" Grid.Row="0" Grid.Column="1" IsEnabled="False"/>
+            </Grid>
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="110"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="Código" Grid.Column="0" Grid.Row="0" VerticalTextAlignment="Center"/>
+                <Entry x:Name="txtCodigo" Text="{Binding Path=ordem_producao}" Grid.Row="0" Grid.Column="1" Keyboard="Numeric"/>
+            </Grid>
+            <Grid Grid.Row="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="110"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Text="Ord.Trab.:" Grid.Column="0" Grid.Row="0" VerticalTextAlignment="Center"/>
+                <Entry x:Name="txtOrdTrab" Text="{Binding Path=ordem_confeccao}" Grid.Row="0" Grid.Column="1"  Keyboard="Numeric"/>
+
+                <Label Text="Etapa:" Grid.Column="2" Grid.Row="0" VerticalTextAlignment="Center"/>
+                <Entry x:Name="txtEtapa" Grid.Row="0" Grid.Column="3"/>
+
+                <Label x:Name="lblEtapa" Text="Etapa" Grid.Column="4" Grid.Row="0" VerticalTextAlignment="Center"/>
+            </Grid>
+            <Grid Grid.Row="3">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Text="P.V.:" Grid.Column="0" Grid.Row="0" VerticalTextAlignment="Center"/>
+                <Entry x:Name="txtPV" Grid.Row="1" Grid.Column="0"/>
+
+                <Label Text="Combinación:" Grid.Column="1" Grid.Row="0" VerticalTextAlignment="Center"/>
+                <Entry x:Name="txtCombina" Grid.Row="1" Grid.Column="1"/>
+
+                <Label Text="Talla:" Grid.Column="2" Grid.Row="0" VerticalTextAlignment="Center"/>
+                <Entry x:Name="txtTalla" Grid.Row="1" Grid.Column="2"/>
+
+                <Label Text="Cantidad:" Grid.Column="3" Grid.Row="0" VerticalTextAlignment="Center"/>
+                <Entry x:Name="txtCantidad" Grid.Row="1" Grid.Column="3"/>                
+            </Grid>
+            
+            <Grid Margin="2" Grid.Row="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="36"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Button x:Name="btnBuscar" Text="Buscar" Grid.Row="0" Margin="2" BackgroundColor="#3D9649" TextColor="White" Padding="2" Clicked="btnBuscar_Clicked"/>
+                <Frame Grid.Row="1" BackgroundColor="Crimson" BorderColor="DarkSlateGray" Padding="0">
+                    <Grid Padding="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50"/>
+                            <ColumnDefinition Width="70"/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="70"/>
+                            <!--<ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>-->
+                        </Grid.ColumnDefinitions>
+                        <Label Margin="7,0,7,0" Text="Seq. Ope." VerticalOptions="Center" Grid.Column="0" TextColor="White"/>
+                        <Label Margin="7,0,7,0" Text="Cod. Ope." VerticalOptions="Center" Grid.Column="1" TextColor="White"/>
+                        <Label Margin="7,0,7,0" Text="Des. Ope." VerticalOptions="Center" Grid.Column="2" TextColor="White"/>
+                        <Label Margin="7,0,7,0" Text="Min. Uti." VerticalOptions="Center" Grid.Column="3" TextColor="White"/>
+                        <!--<Label Margin="10,0,10,0" Text="Pec. Hor." VerticalOptions="Center" Grid.Column="4"/>
+                        <Label Margin="10,0,10,0" Text="Cod. Ope." VerticalOptions="Center" Grid.Column="5"/>
+                        <Label Margin="10,0,10,0" Text="Ntrab" VerticalOptions="Center" Grid.Column="6"/>
+                        <Label Margin="10,0,10,0" Text="DAt. Bax." VerticalOptions="Center" Grid.Column="7"/>
+                        <Label Margin="10,0,10,0" Text="Situacao" VerticalOptions="Center" Grid.Column="8"/>-->
+
+                        <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                        <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                        <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                        <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="3" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                        <!--<BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="4" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                        <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="5" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                        <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="6" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                        <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="7" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                        <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="8" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>-->
+                    </Grid>
+                </Frame>
+                <ListView x:Name="listView" Grid.Row="2" SeparatorVisibility="None" SelectionMode="None" HasUnevenRows="False">
+                    <ListView.ItemTemplate>                        
+                        <DataTemplate>                           
+                            <ViewCell>
+                                <Frame BorderColor="DarkSlateGray" Padding="0">
+                                    <Grid Padding="0" RowSpacing="0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="50"/>
+                                            <ColumnDefinition Width="70"/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition Width="70"/>
+                                            <!--<ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>-->
+                                        </Grid.ColumnDefinitions>
+                                        <Label Margin="7,0,7,0" Text="{Binding seq_operacao}" VerticalOptions="Center" Grid.Column="0"/>
+                                        <Label Margin="7,0,7,0" Text="{Binding codigo_operacao}" VerticalOptions="Center" Grid.Column="1"/>
+                                        <Label Margin="7,0,7,0" Text="{Binding des_oper}" VerticalOptions="Center" Grid.Column="2"/>
+                                        <Label Margin="7,0,7,0" Text="{Binding minutos_utilitario}" VerticalOptions="Center" Grid.Column="3"/>
+                                        <!--<Label Text="{Binding pecas_hora}" VerticalTextAlignment="Center" />
+                                        <Label Text="{Binding codigo_operador}" VerticalTextAlignment="Center" />
+                                        <Label Text="{Binding ntrab}" VerticalTextAlignment="Center" />
+                                        <Label Text="{Binding data_baixa}" VerticalTextAlignment="Center" />
+                                        <Label Text="{Binding situacao}" VerticalTextAlignment="Center" />-->
+
+                                        <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                        <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                        <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                        <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="3" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                        <!--<BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="4" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                        <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="5" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                        <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="6" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                        <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="7" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>
+                                        <BoxView BackgroundColor="DarkSlateGray" WidthRequest="1" Grid.Column="8" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand"/>-->
+                                    </Grid>
+                                </Frame>
+                                <!--<StackLayout Padding="10,0,0,0" 
+                                Margin="1"
+                                HorizontalOptions="StartAndExpand"
+                                Orientation="Horizontal">
+                                    <Label Text="{Binding seq_operacao}" 
+                                VerticalTextAlignment="Center"/>
+                                    <Label Text="{Binding codigo_operacao}" 
+                                VerticalTextAlignment="Center" />
+                                    <Label Text="{Binding des_oper}" 
+                                VerticalTextAlignment="Center" />
+                                    <Label Text="{Binding minutos_utilitario}" 
+                                VerticalTextAlignment="Center" />
+                                    <Label Text="{Binding pecas_hora}" 
+                                VerticalTextAlignment="Center" />
+                                    <Label Text="{Binding codigo_operador}" 
+                                VerticalTextAlignment="Center" />
+                                    <Label Text="{Binding ntrab}" 
+                                VerticalTextAlignment="Center" />
+                                    <Label Text="{Binding data_baixa}" 
+                                VerticalTextAlignment="Center" />
+                                    <Label Text="{Binding situacao}" 
+                                VerticalTextAlignment="Center" />
+                                </StackLayout>-->
+                            </ViewCell>                                                    
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
+        </Grid>        
+    </ScrollView>   
+</ContentPage>
