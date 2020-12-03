@@ -1953,11 +1953,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sistemas13\\Desktop\\Movil\\SYSCKM\\SYSCKM\\SYSCKM.iOS\\SYSCKM.iOS.csproj",
+      "projectUniqueName": "D:\\Proyectos\\repos\\SYSCKMov\\SYSCKM\\SYSCKM\\SYSCKM.iOS\\SYSCKM.iOS.csproj",
       "projectName": "SYSCKM.iOS",
-      "projectPath": "C:\\Users\\sistemas13\\Desktop\\Movil\\SYSCKM\\SYSCKM\\SYSCKM.iOS\\SYSCKM.iOS.csproj",
+      "projectPath": "D:\\Proyectos\\repos\\SYSCKMov\\SYSCKM\\SYSCKM\\SYSCKM.iOS\\SYSCKM.iOS.csproj",
       "packagesPath": "C:\\Users\\sistemas13\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sistemas13\\Desktop\\Movil\\SYSCKM\\SYSCKM\\SYSCKM.iOS\\obj\\",
+      "outputPath": "D:\\Proyectos\\repos\\SYSCKMov\\SYSCKM\\SYSCKM\\SYSCKM.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1978,8 +1978,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\sistemas13\\Desktop\\Movil\\SYSCKM\\SYSCKM\\SYSCKM\\SYSCKM.csproj": {
-              "projectPath": "C:\\Users\\sistemas13\\Desktop\\Movil\\SYSCKM\\SYSCKM\\SYSCKM\\SYSCKM.csproj"
+            "D:\\Proyectos\\repos\\SYSCKMov\\SYSCKM\\SYSCKM\\SYSCKM\\SYSCKM.csproj": {
+              "projectPath": "D:\\Proyectos\\repos\\SYSCKMov\\SYSCKM\\SYSCKM\\SYSCKM\\SYSCKM.csproj"
             }
           }
         }

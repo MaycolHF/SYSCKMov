@@ -21103,11 +21103,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sistemas13\\Desktop\\Movil\\SYSCKM\\SYSCKM\\SYSCKM.UWP\\SYSCKM.UWP.csproj",
+      "projectUniqueName": "D:\\Proyectos\\repos\\SYSCKMov\\SYSCKM\\SYSCKM\\SYSCKM.UWP\\SYSCKM.UWP.csproj",
       "projectName": "SYSCKM.UWP",
-      "projectPath": "C:\\Users\\sistemas13\\Desktop\\Movil\\SYSCKM\\SYSCKM\\SYSCKM.UWP\\SYSCKM.UWP.csproj",
+      "projectPath": "D:\\Proyectos\\repos\\SYSCKMov\\SYSCKM\\SYSCKM\\SYSCKM.UWP\\SYSCKM.UWP.csproj",
       "packagesPath": "C:\\Users\\sistemas13\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sistemas13\\Desktop\\Movil\\SYSCKM\\SYSCKM\\SYSCKM.UWP\\obj\\",
+      "outputPath": "D:\\Proyectos\\repos\\SYSCKMov\\SYSCKM\\SYSCKM\\SYSCKM.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -21129,8 +21129,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\sistemas13\\Desktop\\Movil\\SYSCKM\\SYSCKM\\SYSCKM\\SYSCKM.csproj": {
-              "projectPath": "C:\\Users\\sistemas13\\Desktop\\Movil\\SYSCKM\\SYSCKM\\SYSCKM\\SYSCKM.csproj"
+            "D:\\Proyectos\\repos\\SYSCKMov\\SYSCKM\\SYSCKM\\SYSCKM\\SYSCKM.csproj": {
+              "projectPath": "D:\\Proyectos\\repos\\SYSCKMov\\SYSCKM\\SYSCKM\\SYSCKM\\SYSCKM.csproj"
             }
           }
         }

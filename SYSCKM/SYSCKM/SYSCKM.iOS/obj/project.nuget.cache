@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DdwpismQKFAyZ7uYChznLJzelr4fdx5TgZVg0Lbnvsc65BJ5gkARCgg+iz3h1cTOC8mj4x7CKmcsOUTHfNerVA==",
+  "dgSpecHash": "uCp6Op1zovCfbvKZ3QP2a+FFNkTYrcOJHm3UMBtETsdR6wT9g7Bh4EzhyFf9qoQiXX9lNksbaT6UtauIUP9svw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sistemas13\\Desktop\\Movil\\SYSCKM\\SYSCKM\\SYSCKM.iOS\\SYSCKM.iOS.csproj",
+  "projectFilePath": "D:\\Proyectos\\repos\\SYSCKMov\\SYSCKM\\SYSCKM\\SYSCKM.iOS\\SYSCKM.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sistemas13\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
     "C:\\Users\\sistemas13\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",

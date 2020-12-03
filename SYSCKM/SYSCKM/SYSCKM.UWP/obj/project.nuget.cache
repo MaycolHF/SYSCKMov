@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J/+0tHOh+ou88wT4ovJ7dd5GXkFrVBdM/unkPJirEUH6cf6IzFMrQNc7PWO/Lxj69B/6DQLdOM8gS6OkuBt+Kg==",
+  "dgSpecHash": "Qh+blnEG+hgKJWJDBAKDM8f8CWG+Gb4ejIQSo9xKO8FDln+qvE8vjqCMA2nENWjWVMkg9YruF8yI6tsxzK3A3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sistemas13\\Desktop\\Movil\\SYSCKM\\SYSCKM\\SYSCKM.UWP\\SYSCKM.UWP.csproj",
+  "projectFilePath": "D:\\Proyectos\\repos\\SYSCKMov\\SYSCKM\\SYSCKM\\SYSCKM.UWP\\SYSCKM.UWP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sistemas13\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\sistemas13\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",

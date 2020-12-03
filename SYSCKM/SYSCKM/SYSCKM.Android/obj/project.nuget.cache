@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R6kmyuU97VRSqYx+PZObm4wHeY+bBAoHjZe1RTc8rp7vovAQenMxD4SF8YNppUvcTvwwxrz3Z6Bgcl1UwLDebA==",
+  "dgSpecHash": "h5UVGToOs/p9VPSB5rWg0lLlAaH5OBPIo0ISvlltgAzDGoCSpcuN7/78QoghGvo3kwoFg/IgiPw5dvyaicgaqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sistemas13\\Desktop\\Movil\\SYSCKM\\SYSCKM\\SYSCKM.Android\\SYSCKM.Android.csproj",
+  "projectFilePath": "D:\\Proyectos\\repos\\SYSCKMov\\SYSCKM\\SYSCKM\\SYSCKM.Android\\SYSCKM.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sistemas13\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
     "C:\\Users\\sistemas13\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",

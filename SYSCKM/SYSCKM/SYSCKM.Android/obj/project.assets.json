@@ -2605,11 +2605,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sistemas13\\Desktop\\Movil\\SYSCKM\\SYSCKM\\SYSCKM.Android\\SYSCKM.Android.csproj",
+      "projectUniqueName": "D:\\Proyectos\\repos\\SYSCKMov\\SYSCKM\\SYSCKM\\SYSCKM.Android\\SYSCKM.Android.csproj",
       "projectName": "SYSCKM.Android",
-      "projectPath": "C:\\Users\\sistemas13\\Desktop\\Movil\\SYSCKM\\SYSCKM\\SYSCKM.Android\\SYSCKM.Android.csproj",
+      "projectPath": "D:\\Proyectos\\repos\\SYSCKMov\\SYSCKM\\SYSCKM\\SYSCKM.Android\\SYSCKM.Android.csproj",
       "packagesPath": "C:\\Users\\sistemas13\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sistemas13\\Desktop\\Movil\\SYSCKM\\SYSCKM\\SYSCKM.Android\\obj\\",
+      "outputPath": "D:\\Proyectos\\repos\\SYSCKMov\\SYSCKM\\SYSCKM\\SYSCKM.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2630,8 +2630,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\sistemas13\\Desktop\\Movil\\SYSCKM\\SYSCKM\\SYSCKM\\SYSCKM.csproj": {
-              "projectPath": "C:\\Users\\sistemas13\\Desktop\\Movil\\SYSCKM\\SYSCKM\\SYSCKM\\SYSCKM.csproj"
+            "D:\\Proyectos\\repos\\SYSCKMov\\SYSCKM\\SYSCKM\\SYSCKM\\SYSCKM.csproj": {
+              "projectPath": "D:\\Proyectos\\repos\\SYSCKMov\\SYSCKM\\SYSCKM\\SYSCKM\\SYSCKM.csproj"
             }
           }
         }
